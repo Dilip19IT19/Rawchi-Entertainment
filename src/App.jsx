@@ -231,16 +231,7 @@ function App() {
                   className="text-xl text-gray-200 mb-8">
                   Collaborating to Create Unforgettable Experiences
                 </motion.p>
-                {/* <motion.button
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.9 }}
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="bg-red-600 text-white px-8 py-3 rounded-full hover:bg-red-700 transition-colors flex items-center mx-auto">
-                  <Play className="w-5 h-5 mr-2" />
-                  Watch Showreel
-                </motion.button> */}
+                
               </div>
             </div>
           </section>
