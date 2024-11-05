@@ -1,6 +1,7 @@
 import { useState,useEffect } from 'react'
 import { Menu, X, Play, Award, Mail, Phone, MapPin } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import heroImage from './assets/heroimage.jpeg'
 import './App.css'
 
 function App() {
@@ -212,7 +213,7 @@ function App() {
                 initial={{ scale: 1.1, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
                 transition={{ duration: 1 }}
-                src="src/assets/heroimage.jpeg"
+                src={heroImage}
                 alt="Hero Background"
                 className="absolute inset-0 w-full h-full  object-contain"
               />
